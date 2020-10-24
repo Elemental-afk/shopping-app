@@ -46,8 +46,4 @@ public class Buttons : MonoBehaviour
         Produkty.Sum();
         //Debug.Log(Produkty.prod[1]);
     } 
-    public void Sumuj()
-    {
-        Produkty.Sum();
-    }
 }
