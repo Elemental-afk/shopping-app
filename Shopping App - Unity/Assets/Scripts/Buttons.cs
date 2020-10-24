@@ -32,4 +32,18 @@ public class Buttons : MonoBehaviour
     {
 
     }
+    public void Kanapka()
+    {
+        Produkty.prod[0] += 1;
+        //Mathf.Clamp(Produkty.prod[0], 0, 10);
+        Produkty.Sum();
+        //Debug.Log(Produkty.prod[0]);
+    }
+    public void KanapkaXl()
+    {
+        Produkty.prod[1] += 1;
+        //Mathf.Clamp(Produkty.prod[1], 0, 10);
+        Produkty.Sum();
+        //Debug.Log(Produkty.prod[1]);
+    } 
 }
