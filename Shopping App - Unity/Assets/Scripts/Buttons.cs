@@ -7,6 +7,10 @@ public class Buttons : MonoBehaviour
 {
     public void Menu()
     {
-        SceneManager.LoadScene("Main menu 1");
+        SceneManager.LoadScene("Menu");
+    }
+    public void ShoppingCart()
+    {
+        SceneManager.LoadScene("Shopping cart");
     }
 }
