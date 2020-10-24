@@ -45,7 +45,7 @@ public class Buttons : MonoBehaviour
         //Mathf.Clamp(Produkty.prod[1], 0, 10);
         Produkty.Sum();
         //Debug.Log(Produkty.prod[1]);
-    } 
+    }
     public void Sumuj()
     {
         Produkty.Sum();

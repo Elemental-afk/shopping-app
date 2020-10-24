@@ -12,8 +12,8 @@ public class Produkty : MonoBehaviour
     public static int[] prod = {0, 0,};
     static float[] cena = { 5f, 6.5f, };
     static string[] nazwa = {"kanapka","kanapkaXL",};
-    public static float[] xProduktu = {0, 0,};
-   
+    public static float[] xProduktu = { 0, 0, };
+
     public static void Sum()
     {
         cartSum = prod[0] * cena[0] + prod[1] * cena[1];
