@@ -7,10 +7,29 @@ public class Buttons : MonoBehaviour
 {
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
+        if(SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            SceneManager.LoadScene("Menu");           
+        }
+        
     }
     public void ShoppingCart()
     {
-        SceneManager.LoadScene("Shopping cart");
+        if (SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            SceneManager.LoadScene("Shopping cart 1");
+        }
+        
+    }
+    public void Account()
+    {
+        if (SceneManager.GetActiveScene().buildIndex != 2)
+        {
+            SceneManager.LoadScene("Settings");
+        }
+    }
+    public void Searching()
+    {
+
     }
 }
