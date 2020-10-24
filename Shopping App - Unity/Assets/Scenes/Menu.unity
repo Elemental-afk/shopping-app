@@ -358,7 +358,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 391163140}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: Kanapka
+        m_MethodName: Batonik
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1847,7 +1847,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 391163140}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: Kanapka
+        m_MethodName: Tymbark
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2900,7 +2900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kanapka 5z\u0142"
+  m_Text: "Tymbark 3z\u0142"
 --- !u!222 &1613901233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3400,7 +3400,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kanapka 5z\u0142"
+  m_Text: "Batonik 1.7z\u0142"
 --- !u!222 &2049030410
 CanvasRenderer:
   m_ObjectHideFlags: 0

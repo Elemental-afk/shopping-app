@@ -46,6 +46,16 @@ public class Buttons : MonoBehaviour
         Produkty.Sum();
         //Debug.Log(Produkty.prod[1]);
     }
+    public void Batonik()
+    {
+        Produkty.prod[2] += 1;
+        Produkty.Sum();
+    }
+    public void Tymbark()
+    {
+        Produkty.prod[3] += 1;
+        Produkty.Sum();
+    }
     public void Sumuj()
     {
         Produkty.Sum();
