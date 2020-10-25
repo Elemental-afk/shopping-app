@@ -8,7 +8,7 @@ public class Produkty : MonoBehaviour
     public static float[] prod = {0f, 0f, 0f, 0f, 0f,};
     static float[] cena = { 5f, 6.5f, 1.7f, 3f, 0f,};
     public static float[] xProduktu = { 0f, 0f, 0f, 0f, 0f,};
-    public static string[] nazwa = {"Kanapka", "KanapkaXL", "Batonik", "Tymbark", "",};
+    public static string[] nazwa = {"Kanapka", "KanapkaXL", "Batonik", "Woda", "",};
     public static int[] hierarchy = {4, 4, 4, 4,};
     public static bool[] was = { false, false, false, false, };
     public static void Sum()
