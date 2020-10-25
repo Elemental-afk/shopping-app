@@ -671,7 +671,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 391163140}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: Menu
+        m_MethodName: ShoppingCart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2684,7 +2684,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 391163140}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: Menu
+        m_MethodName: Account
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
